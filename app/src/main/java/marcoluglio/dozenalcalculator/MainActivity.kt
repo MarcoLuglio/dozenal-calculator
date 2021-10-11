@@ -220,7 +220,7 @@ class MainActivity : AppCompatActivity() {
 	}
 
 	private fun appendNumber(number:String) {
-		this.appendNumber(number)
+		this.displayTextView.append(number)
 	}
 
 	private fun deleteNumber() {
